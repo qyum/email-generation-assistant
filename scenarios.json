@@ -1,0 +1,121 @@
+[
+{
+"id": 1,
+"intent": "Follow up after meeting",
+"facts": [
+"Meeting held Monday",
+"Proposal draft due Friday",
+"Need budget approval"
+],
+"tone": "formal",
+"reference_email": "Subject: Follow-Up Regarding Monday Meeting\n\nDear Team,\n\nThank you for meeting on Monday to discuss the next steps.\n\nAs discussed, the proposal draft is due by Friday, and we also need to secure budget approval before proceeding further.\n\nPlease let me know if there are any questions.\n\nBest regards,\nAlex"
+},
+
+{
+"id": 2,
+"intent": "Request proposal approval",
+"facts": [
+"Proposal attached",
+"Deadline next Wednesday",
+"Available for questions"
+],
+"tone": "formal",
+"reference_email": "Subject: Request for Proposal Approval\n\nDear Manager,\n\nPlease find the proposal attached for your review and approval.\n\nAs the deadline is next Wednesday, I would appreciate your feedback at your earliest convenience. I am also available should you have any questions.\n\nBest regards,\nSarah"
+},
+
+{
+"id": 3,
+"intent": "Thank customer",
+"facts": [
+"Purchased premium package",
+"Support available 24/7",
+"Looking forward to feedback"
+],
+"tone": "warm",
+"reference_email": "Subject: Thank You for Your Purchase\n\nDear Customer,\n\nThank you for purchasing our premium package.\n\nOur support team is available 24/7 should you need any assistance. We also look forward to hearing your valuable feedback about your experience.\n\nWarm regards,\nSupport Team"
+},
+
+{
+"id": 4,
+"intent": "Schedule project kickoff",
+"facts": [
+"Project starts July 10",
+"Meeting duration 60 minutes",
+"Agenda attached"
+],
+"tone": "professional",
+"reference_email": "Subject: Project Kickoff Meeting\n\nDear Team,\n\nI would like to schedule our project kickoff meeting ahead of the July 10 project start date.\n\nThe meeting will last approximately 60 minutes, and the agenda has been attached for your review.\n\nBest regards,\nProject Manager"
+},
+
+{
+"id": 5,
+"intent": "Apologize for delay",
+"facts": [
+"Shipment delayed",
+"New delivery date August 15",
+"Tracking information updated"
+],
+"tone": "empathetic",
+"reference_email": "Subject: Apology for Shipment Delay\n\nDear Customer,\n\nWe sincerely apologize for the shipment delay.\n\nYour updated delivery date is August 15, and the tracking information has already been updated accordingly.\n\nWe appreciate your patience and understanding.\n\nBest regards,\nCustomer Support"
+},
+
+{
+"id": 6,
+"intent": "Reminder for payment",
+"facts": [
+"Invoice #5543",
+"Due date passed",
+"Online payment available"
+],
+"tone": "polite",
+"reference_email": "Subject: Friendly Payment Reminder\n\nDear Customer,\n\nThis is a gentle reminder regarding Invoice #5543, whose due date has already passed.\n\nFor your convenience, online payment options are available.\n\nPlease let us know if you require any assistance.\n\nBest regards,\nFinance Team"
+},
+
+{
+"id": 7,
+"intent": "Invite team to workshop",
+"facts": [
+"Workshop on AI tools",
+"August 20",
+"Registration required"
+],
+"tone": "enthusiastic",
+"reference_email": "Subject: Invitation to AI Tools Workshop\n\nDear Team,\n\nWe are excited to invite you to our upcoming workshop on AI tools taking place on August 20.\n\nPlease note that registration is required to attend.\n\nWe hope to see you there!\n\nBest regards,\nHR Team"
+},
+
+{
+"id": 8,
+"intent": "Decline partnership offer",
+"facts": [
+"Reviewed proposal",
+"Current priorities differ",
+"Open to future opportunities"
+],
+"tone": "respectful",
+"reference_email": "Subject: Partnership Proposal Update\n\nDear Partner,\n\nThank you for sharing your proposal with us. After careful review, we have decided not to proceed at this time as our current priorities differ.\n\nHowever, we remain open to exploring future opportunities together.\n\nBest regards,\nBusiness Development Team"
+},
+
+{
+"id": 9,
+"intent": "Request customer feedback",
+"facts": [
+"Service completed yesterday",
+"Survey takes 2 minutes",
+"Feedback highly valued"
+],
+"tone": "friendly",
+"reference_email": "Subject: We'd Love Your Feedback\n\nDear Customer,\n\nThank you for choosing our service, which was completed yesterday.\n\nWe would greatly appreciate your feedback through our short 2-minute survey. Your feedback is highly valued and helps us improve our services.\n\nBest regards,\nSupport Team"
+},
+
+{
+"id": 10,
+"intent": "Announce product update",
+"facts": [
+"New dashboard launched",
+"Improved reporting",
+"Available immediately"
+],
+"tone": "professional",
+"reference_email": "Subject: New Product Dashboard Launch\n\nDear Users,\n\nWe are pleased to announce the launch of our new dashboard featuring improved reporting capabilities.\n\nThe update is available immediately for all users.\n\nBest regards,\nProduct Team"
+}
+]

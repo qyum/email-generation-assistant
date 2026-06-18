@@ -1,0 +1,254 @@
+# Model Comparison and Analysis
+
+## Objective
+
+The purpose of this evaluation was to compare two prompting strategies for an AI-powered Email Generation Assistant using the same dataset, evaluation pipeline, and custom metrics.
+
+The evaluation was conducted using 10 unique email-generation scenarios containing different intents, facts, and tones.
+
+The following two prompting strategies were tested:
+
+* Model A: Basic Prompting Strategy
+* Model B: Advanced Prompt Engineering Strategy
+
+Both models were evaluated using the same custom metrics and evaluation process.
+
+---
+
+# Evaluation Metrics
+
+The following three custom metrics were designed specifically for evaluating email-generation quality.
+
+---
+
+## 1. Fact Recall Score
+
+### Purpose
+
+Measures whether the generated email correctly includes the required facts from the scenario.
+
+### Logic
+
+* Each fact is checked against the generated email.
+* Score is calculated as:
+
+Fact Recall Score = Matched Facts / Total Facts
+
+### Importance
+
+This metric ensures that important business information is not omitted from the generated email.
+
+---
+
+## 2. Tone Accuracy Score
+
+### Purpose
+
+Measures whether the generated email reflects the requested tone.
+
+### Supported Tones
+
+* formal
+* professional
+* warm
+* empathetic
+* friendly
+* respectful
+* enthusiastic
+* polite
+
+### Logic
+
+The generated email is evaluated using tone-related keywords and stylistic patterns associated with the requested tone.
+
+### Importance
+
+Tone alignment is important for maintaining professional and context-appropriate communication.
+
+---
+
+## 3. Format Adherence Score
+
+### Purpose
+
+Measures whether the generated email follows professional email formatting standards.
+
+### Required Components
+
+* Subject line
+* Greeting
+* Closing statement
+
+### Logic
+
+Each required component contributes to the final format score.
+
+### Importance
+
+Professional formatting improves readability and communication quality.
+
+---
+
+# Comparative Results
+
+## Overall Performance
+
+| Model   | Average Overall Score |
+| ------- | --------------------- |
+| Model A | 0.868                 |
+| Model B | 0.801                 |
+
+Based on the evaluation results, Model A achieved a higher average overall score compared to Model B.
+
+---
+
+# Metric-Level Analysis
+
+## Fact Recall
+
+Model A demonstrated stronger fact retention across most scenarios.
+
+### Observation
+
+* Model A consistently included key scenario facts.
+* Model B occasionally omitted secondary details or summarized them too aggressively.
+
+### Example Failure in Model B
+
+Some generated emails missed details such as:
+
+* agenda attachments
+* support availability
+* scheduling constraints
+
+---
+
+## Tone Accuracy
+
+Both models performed reasonably well in tone consistency; however, Model A produced more stable tone alignment overall.
+
+### Observation
+
+* Model A generated clearer tone-specific phrasing.
+* Model B occasionally produced overly generic responses despite advanced prompting instructions.
+
+### Example
+
+For empathetic scenarios:
+
+* Model A included apology-focused and reassuring language.
+* Model B sometimes shifted toward neutral business language.
+
+---
+
+## Format Adherence
+
+Both models generally followed professional email structure.
+
+### Observation
+
+* Model A consistently included:
+
+  * Subject
+  * Greeting
+  * Professional closing
+
+* Model B occasionally produced formatting inconsistencies, especially in shorter responses.
+
+---
+
+# Biggest Failure Mode of the Lower-Performing Model
+
+The biggest failure mode of Model B was over-constrained prompting.
+
+### Common Issues
+
+* Excessively rigid formatting
+* Occasional omission of smaller facts
+* Less natural phrasing in some responses
+
+### Root Cause
+
+The advanced prompting strategy introduced additional structural constraints that sometimes reduced flexibility and natural response generation.
+
+As a result:
+
+* some responses became repetitive
+* factual completeness occasionally decreased
+* outputs sometimes sounded template-based
+
+---
+
+# Production Recommendation
+
+## Recommended Model: Model A
+
+Based on the evaluation results, Model A is recommended for production deployment.
+
+### Reasons
+
+## 1. Higher Overall Evaluation Score
+
+Model A achieved the highest average score across all evaluation metrics.
+
+## 2. Better Fact Retention
+
+Model A more consistently preserved required business details.
+
+## 3. More Natural Email Generation
+
+The simpler prompting approach often produced emails that sounded more natural and less rigid.
+
+## 4. More Stable Performance
+
+Model A demonstrated more consistent outputs across different tones and intents.
+
+---
+
+# Why Model A Performed Better
+
+Although Model B used advanced prompt engineering techniques, the simpler prompting strategy used by Model A proved more effective for this task.
+
+Possible reasons include:
+
+* fewer prompt constraints
+* greater generation flexibility
+* reduced prompt overfitting
+* more natural language flow
+
+The results suggest that simpler prompts can sometimes outperform heavily engineered prompts for structured business-email generation tasks.
+
+---
+
+# Advanced Prompt Engineering Used in Model B
+
+Model B incorporated several advanced prompting techniques:
+
+## Role Prompting
+
+The model was instructed to behave as a senior executive communications specialist.
+
+## Few-Shot Prompting
+
+Example emails were included to guide output behavior.
+
+## Structured Instructions
+
+The prompt explicitly enforced:
+
+* subject generation
+* greeting inclusion
+* professional closing
+* structured formatting
+
+While these techniques improved structure, they occasionally reduced output flexibility.
+
+---
+
+# Conclusion
+
+This evaluation demonstrates the importance of empirically testing prompting strategies rather than assuming that more complex prompting automatically produces better results.
+
+Although both models generated professional business emails, Model A achieved better overall performance according to the custom evaluation metrics.
+
+Therefore, Model A is the recommended production solution for this Email Generation Assistant project.
