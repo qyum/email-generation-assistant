@@ -106,7 +106,6 @@ email-generation-assistant/
 ├── requirements.txt
 ├── .env
 ├── README.md
-
 └── reports/
 └── analysis.txt
 
