@@ -1,37 +1,20 @@
 scenario_id,intent,tone,fact_score,tone_score,format_score,overall_score,generated_email,model
-1,Follow up after meeting,formal,1.0,0.67,1.0,0.89,"Subject: Follow‑Up on Monday’s Meeting – Proposal Draft and Budget Approval  
+1,Follow up after meeting,formal,1.0,0.67,1.0,0.89,"Subject: Follow‑Up on Monday’s Meeting – Proposal Draft & Budget Approval  
 
 Dear [Recipient’s Name],
 
-I hope this message finds you well.
+I hope you are well.  
 
-I am writing to follow up on our meeting held on Monday, [date]. As discussed, the draft of the proposal is scheduled to be completed by **Friday, [date]**. I will ensure that the document is shared with you and the rest of the team by that deadline.
+I am writing to follow up on our meeting held on Monday, during which we discussed the upcoming project proposal. As agreed:
 
-In addition, we need to secure the necessary budget approval to proceed with the next phase of the project. Could you please advise on the appropriate steps and timeline for obtaining this approval? If there are any additional details or documentation required, kindly let me know so I can provide them promptly.
+| Item | Action | Deadline |
+|------|--------|----------|
+| Draft of the proposal | Prepare and circulate for review | **Friday, [Date]** |
+| Budget approval | Submit the finalized budget to the Finance Committee | Upon completion of the draft |
 
-Thank you for your attention to these matters. I look forward to your guidance and to moving the project forward.
+Please let me know if there are any additional details or adjustments required before the draft is finalized. I will ensure the proposal is delivered to you by the Friday deadline so that we can proceed promptly with the budget approval process.
 
-Best regards,
-
-[Your Full Name]  
-[Your Position]  
-[Your Department]  
-[Your Company]  
-[Phone Number]  
-[Email Address]  ",Model_A
-2,Request proposal approval,formal,1.0,0.67,1.0,0.89,"Subject: Request for Approval of Attached Proposal – Response Needed by Next Wednesday  
-
-Dear [Recipient’s Name],
-
-I hope this message finds you well.
-
-Please find attached the proposal titled **[Proposal Title]** for your review and approval. The proposal outlines the objectives, scope, timeline, and budget for the upcoming project, and aligns with the strategic goals discussed in our recent meetings.
-
-In order to stay on schedule, we kindly request your formal approval by **Wednesday, [Date]**. Your timely response will allow us to proceed with the planned activities without delay.
-
-Should you have any questions, require further clarification, or wish to discuss any aspect of the proposal, please feel free to contact me at your convenience. I am available for a call or meeting and will be happy to provide any additional information you may need.
-
-Thank you for your attention to this matter and for your continued support.
+Thank you for your attention to these matters. I look forward to your feedback.
 
 Best regards,
 
@@ -40,152 +23,159 @@ Best regards,
 [Your Department / Team]  
 [Your Company]  
 Phone: [Your Phone Number]  
+Email: [Your Email Address]  ",Model_A
+2,Request proposal approval,formal,1.0,0.67,1.0,0.89,"Subject: Request for Approval of Attached Proposal – Deadline Wednesday, [Date]
+
+Dear [Recipient’s Name],
+
+I hope this message finds you well.
+
+Please find attached the proposal titled **[Proposal Title]** for your review and approval. The document outlines the objectives, scope, timeline, and budget for the upcoming project, and incorporates the feedback received during our recent discussions.
+
+In order to meet the project schedule, we kindly ask that the proposal be approved by **next Wednesday, [Date]**. Your timely confirmation will enable us to proceed with the necessary preparations and adhere to the planned milestones.
+
+Should you have any questions, require clarification, or wish to discuss any aspect of the proposal, I am available at your convenience. Please feel free to contact me by email or phone, and I will be happy to provide any additional information you may need.
+
+Thank you for your attention to this matter. I look forward to your favorable response.
+
+Warm regards,
+
+[Your Full Name]  
+[Your Position]  
+[Your Department / Team]  
+[Your Company]  
+Phone: [Your Phone Number]  
 Email: [Your Email Address]  
 
-Attachment: [Proposal_Title.pdf]",Model_A
-3,Thank customer,warm,1.0,0.67,1.0,0.89,"Subject: Thank You for Choosing Our Premium Package – We're Here for You 24/7  
+*Attachment: [Proposal_Title].pdf*",Model_A
+3,Thank customer,warm,1.0,0.33,1.0,0.78,"Subject: Thank You for Choosing Our Premium Package  
 
 Dear [Customer Name],
 
-Thank you for purchasing our Premium Package! We’re delighted to have you on board and confident that the added features and dedicated support will help you achieve your goals.
+I hope this message finds you well. On behalf of the entire team, I’d like to extend a warm thank‑you for purchasing our Premium Package. Your confidence in our services means a great deal to us.
 
-As a Premium member, you have access to our 24/7 support team. Whether you have a quick question, need assistance with setup, or encounter any issue, our specialists are just a call or email away—anytime, day or night.
+As a Premium member, you now have 24/7 access to our dedicated support team. Whether you have a quick question or need in‑depth assistance, we’re here around the clock to ensure you get the best possible experience.
 
-We look forward to hearing about your experience. Your feedback is invaluable and helps us continue to improve our services. Please feel free to share any thoughts, suggestions, or success stories at your convenience.
+We’re eager to hear how the Premium Package is working for you. Your feedback helps us continuously improve and tailor our offerings to meet your needs. Please feel free to share any thoughts, suggestions, or success stories at any time.
+
+Thank you once again for choosing us. We look forward to supporting your success and hearing from you soon.
 
 Warm regards,
 
 [Your Full Name]  
 [Your Title]  
 [Company Name]  
-Phone: [Phone Number] (available 24/7)  
-Email: [Support Email]  
-Website: [Company Website]  
-
----  
-
-*We appreciate your trust in us and are excited to support you on this journey.*",Model_A
-4,Schedule project kickoff,professional,1.0,1.0,1.0,1.0,"Subject: Kick‑off Meeting – Project Commencement (July 10)
-
-Dear [Recipient’s Name],
-
-I hope you are well.
-
-As we approach the start of our new project on **July 10**, I would like to schedule a **60‑minute kick‑off meeting** to align on objectives, roles, timelines, and next steps.  
-
-**Proposed details**  
-- **Date:** [Insert preferred date – e.g., Monday, July 3]  
-- **Time:** [Insert time – e.g., 10:00 AM – 11:00 AM]  
-- **Duration:** 60 minutes  
-- **Location/Link:** [Conference room / virtual meeting link]  
-
-The meeting agenda is attached for your reference.
-
-Please let me know if the suggested date and time work for you, or propose an alternative that fits your schedule. Once we have a confirmed slot, I will send a calendar invitation with the meeting link and the agenda.
-
-Thank you for your cooperation. I look forward to a productive start and to collaborating with you and the team.
-
-Best regards,
-
-[Your Full Name]  
-[Your Title]  
-[Your Company]  
-[Phone Number] | [Email Address]  
-[Company Website]  ",Model_A
-5,Apologize for delay,empathetic,1.0,0.67,1.0,0.89,"Subject: Apology for Shipment Delay – Updated Delivery Date (August 15)
-
-Dear [Customer Name],
-
-I hope you are well. I am writing to sincerely apologize for the delay in delivering your recent order ([Order #____]). We understand how important a timely shipment is, and we regret any inconvenience this may have caused.
-
-**What happened**  
-Due to unforeseen logistical issues, the original delivery schedule could not be met. We have taken immediate steps to resolve the situation and prevent similar delays in the future.
-
-**New delivery date**  
-Your package is now expected to arrive on **August 15**. The tracking information has been updated accordingly; you can monitor the progress of your shipment here: [Tracking Link].
-
-We truly appreciate your patience and understanding. If you have any questions, need further assistance, or would like to discuss alternative arrangements, please do not hesitate to contact me directly at [Your Phone] or reply to this email.
-
-Thank you for giving us the opportunity to make this right.
-
-Warm regards,
-
-[Your Full Name]  
-[Your Title]  
-[Company Name]  
-[Phone Number] | [Email Address]  
-[Company Website]  ",Model_A
-6,Reminder for payment,polite,1.0,0.67,1.0,0.89,"**Subject:** Friendly Reminder: Outstanding Payment for Invoice #5543  
+Phone: [Phone Number]  
+Email: [Your Email]  
+Website: [Company Website]  ",Model_A
+4,Schedule project kickoff,professional,1.0,1.0,1.0,1.0,"Subject: Project Kickoff Meeting – July 10, 2024  
 
 Dear [Recipient’s Name],
 
 I hope you are well.  
 
-I am writing to remind you that payment for **Invoice #5543** was due on **[Due Date]**, and we have not yet received confirmation of the transaction.  
+To officially launch the upcoming project, I would like to schedule a 60‑minute kickoff meeting on **Monday, July 10, 2024**. The meeting will cover the items outlined in the attached agenda.
 
-For your convenience, you can settle the invoice online at any time using the secure payment link below:  
+**Proposed details**  
+- **Date:** July 10, 2024 (Monday)  
+- **Time:** [Insert preferred time slot] (please let me know if another time works better)  
+- **Duration:** 60 minutes  
+- **Location/Link:** [Conference room name / virtual meeting link]  
 
-**[Insert Online Payment Link]**
+Please review the attached agenda and confirm your availability at your earliest convenience. If you have any additional topics you’d like to discuss, feel free to let me know so I can incorporate them.
 
-If you have already made the payment, please disregard this notice and accept our thanks. Otherwise, we would appreciate it if you could arrange for payment at your earliest convenience.
+Thank you, and I look forward to a successful start.
 
-Should you have any questions or require assistance, feel free to reply to this email or contact me directly at **[Your Phone Number]**.
+Best regards,
 
-Thank you for your prompt attention to this matter.
+[Your Full Name]  
+[Your Title]  
+[Your Department]  
+[Your Company]  
+[Phone Number]  
+[Email Address]  ",Model_A
+5,Apologize for delay,empathetic,1.0,0.33,1.0,0.78,"Subject: Apology for Shipment Delay and Updated Delivery Date  
 
-Kind regards,
+Dear [Customer Name],
+
+I hope you are well. I am writing to sincerely apologize for the delay in delivering your recent order (#[Order Number]). We understand how important timely receipt of your shipment is, and we regret any inconvenience this may have caused.
+
+**What happened**  
+Due to unforeseen logistics issues, the original delivery schedule could not be met.  
+
+**New delivery date**  
+Your package is now expected to arrive on **August 15, 2026**.  
+
+**Tracking information**  
+The tracking details have been updated and can be viewed here:  
+[Insert Tracking Link]  
+
+We are closely monitoring the shipment and will keep you informed of any further changes. If you have any questions or need additional assistance, please do not hesitate to reply to this email or contact our support team at [Phone Number] / [Support Email].
+
+Thank you for your patience and understanding. We value your business and are committed to ensuring a smoother experience moving forward.
+
+Warm regards,
+
+[Your Full Name]  
+[Your Position]  
+[Company Name]  
+[Phone Number] | [Email]  
+[Company Website]  ",Model_A
+6,Reminder for payment,polite,1.0,0.67,1.0,0.89,"Subject: Friendly Reminder – Invoice #5543 Payment Due
+
+Dear [Recipient’s Name],
+
+I hope this message finds you well.
+
+I am writing to remind you that the payment for **Invoice #5543** was due on **[Due Date]** and, according to our records, has not yet been received. We understand that oversights happen, and we wanted to bring this to your attention promptly.
+
+For your convenience, you can settle the outstanding amount online through our secure payment portal here: **[Insert Payment Link]**. The portal accepts major credit cards and bank transfers, and the transaction is processed instantly.
+
+If you have already submitted the payment, please disregard this reminder and accept our thanks. Should you have any questions about the invoice or need assistance with the online payment process, feel free to reply to this email or contact me directly at **[Your Phone Number]**.
+
+Thank you for your prompt attention to this matter. We value our partnership and appreciate your cooperation.
+
+Warm regards,
 
 [Your Full Name]  
 [Your Position]  
 [Your Company]  
-[Company Address]  
-[Phone] | [Email]  
+[Phone Number] | [Email Address]  
 [Company Website]  ",Model_A
-7,Invite team to workshop,enthusiastic,1.0,0.33,0.67,0.67,"Subject: 📢 Join Us for an Exciting AI Tools Workshop – August 20 (Registration Required)
+7,Invite team to workshop,enthusiastic,1.0,0.33,0.67,0.67,"Subject: Join Us for an Exciting AI‑Tools Workshop – Register Today!  
 
 Hi Team,
 
-I’m thrilled to invite you to our upcoming **Workshop on AI Tools**—a hands‑on session designed to showcase the latest AI technologies that can boost our productivity and innovation.
+I’m thrilled to invite you to our upcoming **Workshop on AI Tools** scheduled for **August 20**. This session will showcase the latest AI applications that can streamline our workflows, boost creativity, and give us a competitive edge.
 
-**🗓 Date:** Monday, August 20, 2024  
-**⏰ Time:** 10:00 AM – 3:00 PM  
-**📍 Location:** Conference Room B / Virtual link (will be shared after registration)  
-**💡 Focus:** Practical demos, real‑world use cases, and collaborative exercises with the newest AI platforms.
+**What you’ll get:**  
+- Hands‑on demos of cutting‑edge AI platforms  
+- Real‑world use‑cases relevant to our projects  
+- Opportunities to ask questions and share ideas with colleagues  
 
-### Why you should attend
-- **Stay ahead:** Learn how AI can streamline our workflows and uncover new opportunities.  
-- **Hands‑on experience:** Work directly with tools such as ChatGPT, Midjourney, and data‑analysis assistants.  
-- **Collaborate & innovate:** Bring ideas from your projects and explore how AI can enhance them.  
-- **Network:** Connect with colleagues across departments who are also exploring AI.
+**Action required:**  
+Please **register by August 10** so we can finalize logistics and ensure we have enough seats and materials for everyone. Click the link below to secure your spot:
 
-### How to register
-Because space is limited, please **confirm your attendance by August 10** using the registration form below:
+[Register for the AI Tools Workshop](#)
 
-[Register for the AI Tools Workshop →](#)
+Feel free to reach out to me directly if you have any questions or need accommodations.
 
-You’ll receive a calendar invite, agenda, and the virtual meeting link once you’ve signed up.
+Looking forward to seeing you there and exploring how AI can empower our work together!
 
----
-
-If you have any questions or specific topics you’d like covered, feel free to reply to this email. Let’s make the most of this opportunity to learn, experiment, and inspire each other with AI!
-
-Looking forward to seeing you there.
-
-Best regards,
-
+Best regards,  
 [Your Name]  
 [Your Title]  
 [Your Department]  
-[Your Contact Information]  ",Model_A
-8,Decline partnership offer,respectful,1.0,0.67,1.0,0.89,"Subject: Regarding Your Partnership Proposal  
+[Phone] | [Email]  ",Model_A
+8,Decline partnership offer,respectful,1.0,0.67,1.0,0.89,"Subject: Re: Partnership Proposal
 
-Dear [Recipient’s Name],
+Dear [Recipient’s Name],
 
-Thank you for sharing the details of your partnership proposal and for the time you invested in discussing it with us. We have carefully reviewed the materials and considered how the collaboration would align with our current strategic priorities.
+Thank you for sharing your partnership proposal and for the time you and your team invested in outlining the opportunity. We have reviewed the materials carefully.
 
-After thorough evaluation, we have concluded that our immediate focus areas differ from the scope of the proposed partnership. Consequently, we must respectfully decline the opportunity at this time.
+After a thorough assessment, we have determined that our current strategic priorities differ from the focus of this collaboration. Consequently, we must respectfully decline to move forward with the partnership at this time.
 
-We value the relationship we have built with your team and remain interested in exploring potential collaborations in the future when our objectives are more closely aligned. Please feel free to keep us informed of any new initiatives that might be a better fit.
+We value the relationship we have built with [Recipient’s Company] and remain interested in exploring potential synergies in the future when our objectives align more closely. Please feel free to stay in touch, and we would be glad to revisit possibilities down the line.
 
 Thank you again for your understanding and for considering us as a partner.
 
@@ -196,195 +186,205 @@ Warm regards,
 [Your Company]  
 [Phone Number]  
 [Email Address]  ",Model_A
-9,Request customer feedback,friendly,1.0,0.33,0.67,0.67,"Subject: Your Quick Feedback Would Help Us Serve You Better  
+9,Request customer feedback,friendly,1.0,0.33,0.67,0.67,"Subject: Your Quick Feedback Would Mean a Lot to Us  
 
 Hi [Customer Name],
 
 I hope you’re enjoying the results of the service we completed for you yesterday.  
 
-We’re always looking to improve, and your perspective is incredibly valuable to us. Could you spare just **2 minutes** to share your thoughts in a short survey? Your feedback will help us ensure we continue delivering the high‑quality experience you expect.
+We’re always looking to improve, and your perspective is incredibly valuable to us. Could you spare just **2 minutes** to share your thoughts in our short survey?  
 
-[Insert Survey Link – “Start the 2‑Minute Survey”]
+[Insert Survey Link]  
 
-Thank you in advance for your time and honest input. If there’s anything else we can do for you, please don’t hesitate to let me know.
+Your feedback helps us ensure we continue delivering the high‑quality experience you expect.
+
+Thank you in advance for your time—​we truly appreciate it!
 
 Warm regards,  
 
 [Your Full Name]  
-[Your Title]  
+[Your Position]  
 [Company Name]  
 [Phone] | [Email]  
 [Company Website]  ",Model_A
 10,Announce product update,professional,1.0,1.0,1.0,1.0,"Subject: Introducing Our New Dashboard – Enhanced Reporting Available Now  
 
-Dear [Recipient’s Name],
+Dear [Customer/Partner Name],
 
-I am pleased to announce the release of a major product update: a brand‑new dashboard with significantly improved reporting capabilities. The update is live and available to all users immediately.
+I am pleased to announce a major update to our platform: the launch of a brand‑new dashboard with significantly improved reporting capabilities.  
 
 **What’s new**  
-- **Intuitive Dashboard:** A modern, user‑friendly interface that consolidates key metrics in a single view.  
-- **Enhanced Reporting:** Faster data retrieval, deeper insights, and customizable report templates to support more informed decision‑making.  
-- **Immediate Access:** The updated features are already active in your account—no additional installation or downtime required.
+- **Intuitive Dashboard** – A modern, user‑friendly interface that consolidates key metrics in one view.  
+- **Enhanced Reporting** – Faster, more detailed reports with customizable filters and visualizations.  
+- **Immediate Availability** – The new dashboard is live and ready for use today; simply log in to experience the upgrade.
 
-**Next steps**  
-1. Log in to your account to explore the new dashboard.  
-2. Review the updated reporting options in the “Reports” section.  
-3. If you have any questions or would like a brief walkthrough, please contact our support team at support@yourcompany.com or call +1‑800‑555‑0123.
+**How to get started**  
+1. Log in to your account as usual.  
+2. Click the “Dashboard” tab to explore the new layout.  
+3. Use the “Reports” section to generate the insights you need, or consult our updated Help Center for step‑by‑step guides.
 
-We believe these enhancements will streamline your workflow and provide clearer visibility into your performance data. Thank you for your continued partnership—we look forward to hearing your feedback.
+Our team has worked diligently to ensure a smooth transition, and we are confident these enhancements will streamline your workflow and provide deeper visibility into your data.
+
+If you have any questions, need assistance, or would like to share feedback, please reply to this email or contact our support team at support@yourcompany.com.
+
+Thank you for your continued partnership.
 
 Best regards,
 
-[Your Full Name]  
-[Your Title]  
-[Company Name]  
-[Phone] | [Email]  
-[Company Website]  ",Model_A
+[Your Name]  
+Product Manager – [Your Company]  
+Phone: (555) 123‑4567  
+Email: your.name@yourcompany.com  
+Website: www.yourcompany.com  ",Model_A
 1,Follow up after meeting,formal,1.0,0.67,1.0,0.89,"**Subject:** Follow‑Up on Monday’s Meeting and Upcoming Proposal Draft  
 
-Dear [Recipient’s Name],
+**Dear [Recipient’s Name],**  
 
-I hope this message finds you well. I am writing to follow up on our meeting held on Monday. As discussed, we will deliver the draft of the proposal by Friday. In order to keep the project on schedule, we will also need to secure budget approval at your earliest convenience.
+I am writing to recap our discussion held on Monday and to outline the next steps. As agreed, the draft of the proposal will be completed and delivered to you by Friday.  
 
-Please let me know if you require any additional information or clarification before the Friday deadline. I appreciate your attention to the budget approval process and look forward to moving ahead promptly.
+In order to proceed smoothly, we will also require budget approval at your earliest convenience. Please let us know if any additional information is needed to facilitate this approval.  
 
-Thank you for your cooperation.
+Thank you for your attention to these matters. I look forward to your response.  
 
-Sincerely,  
+**Sincerely,**  
 [Your Name]  
 [Your Title]  
 [Your Company]  
 [Contact Information]",Model_B
-2,Request proposal approval,formal,1.0,0.67,1.0,0.89,"**Subject:** Request for Approval of Attached Proposal – Response Needed by Next Wednesday  
+2,Request proposal approval,formal,1.0,0.67,1.0,0.89,"**Subject:** Request for Approval of Attached Proposal – Deadline Next Wednesday  
 
-Dear [Recipient’s Name],
+**Dear [Recipient’s Name],**  
 
-Please find the proposal attached for your review. We kindly ask that you approve the document at your earliest convenience, as the deadline for finalizing the project is next Wednesday.  
+I hope this message finds you well. Please find the proposal attached for your review and approval.  
 
-Should you have any questions or require further clarification, I am available and happy to discuss the details.
+In order to stay on schedule, we kindly ask that the proposal be approved by next Wednesday. Should you have any questions or require further clarification, I am available at your convenience to discuss the details.  
 
-Thank you for your attention to this matter.
+Thank you for your attention to this matter.  
 
-Sincerely,  
+**Sincerely,**  
 [Your Name]  
 [Your Title]  
-[Your Company]  
-[Contact Information]",Model_B
+[Your Department]  
+[Your Contact Information]",Model_B
 3,Thank customer,warm,1.0,0.33,1.0,0.78,"**Subject:** Thank You for Choosing Our Premium Package  
 
 **Dear Valued Customer,**
 
-Thank you for purchasing our premium package. We’re delighted to have you with us and want you to know that our support team is available 24/7 should you need any assistance.  
+Thank you for purchasing our premium package. We’re thrilled to have you with us and want you to know that our support team is available 24/7 should you need any assistance.  
 
 We look forward to hearing your feedback and learning how we can continue to serve you better.
 
 **Warm regards,**  
 The Customer Success Team",Model_B
-4,Schedule project kickoff,professional,1.0,0.5,1.0,0.83,"**Subject:** Project Kickoff Meeting – July 10, 2024  
+4,Schedule project kickoff,professional,1.0,0.5,1.0,0.83,"**Subject:** Project Kickoff Meeting – July 10
 
-**Dear [Recipient’s Name],**  
+**Dear [Recipient’s Name],**
 
-I am writing to confirm the kickoff for our upcoming project, which is scheduled to begin on **July 10, 2024**. To ensure a smooth start, we have arranged a **60‑minute meeting** during which we will review the project’s objectives, timelines, and key responsibilities.  
+I am writing to confirm the kickoff for our upcoming project, which is scheduled to begin on **July 10**. To ensure a smooth start, we have arranged a **60‑minute meeting** where we will review the project scope, timelines, and key responsibilities.
 
-Please find the detailed agenda attached for your reference.  
+Please find the detailed agenda attached for your reference.
 
-Kindly confirm your availability for the meeting at your earliest convenience. Should you have any questions or require additional information beforehand, feel free to reach out.  
+Kindly let me know if the proposed time works for you or if any adjustments are needed.
 
 **Best regards,**  
 [Your Name]  
 [Your Title]  
 [Your Company]  
-[Phone Number]  
-[Email Address]",Model_B
-5,Apologize for delay,empathetic,1.0,0.33,1.0,0.78,"**Subject:** Apology for the Shipping Delay and Updated Delivery Details  
+[Phone] | [Email]",Model_B
+5,Apologize for delay,empathetic,1.0,0.33,1.0,0.78,"**Subject:** Apology for Shipment Delay and Updated Delivery Details  
 
 Dear [Customer Name],
 
-I’m writing to sincerely apologize for the delay in delivering your recent order. We understand how important timely shipments are to you, and we regret any inconvenience this has caused.
+I’m writing to sincerely apologize for the delay in delivering your recent order. We understand how important timely delivery is to you, and we regret any inconvenience this may have caused.
 
-Your package is now scheduled to arrive on **August 15**. We have updated the tracking information, which you can view using the link below:
+Your shipment’s new expected delivery date is **August 15**. We have updated the tracking information, which you can view using the link below:
 
 [Insert Tracking Link]
 
-Thank you for your patience and understanding. If you have any questions or need further assistance, please don’t hesitate to reach out—we’re here to help.
+Please know that we are closely monitoring the shipment and are committed to getting it to you as quickly as possible. If you have any questions or need further assistance, do not hesitate to reach out.
+
+Thank you for your patience and understanding.
 
 Warm regards,  
 [Your Name]  
-Customer Experience Manager  
+[Your Title]  
 [Company Name]  
 [Contact Information]",Model_B
 6,Reminder for payment,polite,1.0,0.67,1.0,0.89,"**Subject:** Friendly Reminder: Invoice #5543 Payment Overdue  
 
 Dear [Recipient’s Name],
 
-I hope you are well. I am writing to remind you that payment for **Invoice #5543** was due on the scheduled date, which has now passed.  
+I hope you are well. I am writing to remind you that payment for **Invoice #5543** was due on **[original due date]**, and the due date has now passed.  
 
-For your convenience, you can settle the outstanding amount quickly through our **online payment portal**. If you have already processed the payment, please disregard this notice and accept our thanks.
+For your convenience, you can settle the invoice quickly through our **online payment portal** at any time. If you have already processed the payment, please disregard this notice and accept our thanks.
 
-Should you have any questions or require assistance, feel free to reach out.
+Should you have any questions or need assistance with the payment process, feel free to contact me directly.
 
 Thank you for your attention to this matter.
 
 Kind regards,  
+
 [Your Name]  
 [Your Title]  
 [Your Company]  
-[Contact Information]",Model_B
+[Phone Number]  
+[Email Address]  ",Model_B
 7,Invite team to workshop,enthusiastic,1.0,0.0,1.0,0.67,"**Subject:** Join Us for an Exciting AI Tools Workshop – August 20!
 
 Dear Team,
 
-I’m thrilled to invite you to our upcoming **Workshop on AI Tools** scheduled for **August 20**. This is a fantastic opportunity to explore cutting‑edge technologies that can boost our productivity and innovation.
+I’m thrilled to invite you to our upcoming **Workshop on AI Tools** scheduled for **August 20**. This hands‑on session will showcase the latest AI technologies and how they can boost our daily workflows and project outcomes.
 
-To secure your spot, **registration is required**. Please sign up by the end of this week using the link below:
+To ensure we have the right resources and seating, **registration is required**. Please sign up by the end of next week using the link below:
 
-[Register for the AI Tools Workshop]
+[Register for the AI Tools Workshop](#)
 
-Let’s come together to learn, experiment, and spark new ideas. I can’t wait to see you there!
+Let’s seize this opportunity to learn, experiment, and inspire one another. I look forward to seeing you there and exploring the future of AI together!
 
 Best regards,  
 [Your Name]  
 Senior Executive Communications Specialist  
-[Company Name]  ",Model_B
+[Your Company]  ",Model_B
 8,Decline partnership offer,respectful,1.0,0.67,0.67,0.78,"**Subject:** Regarding Your Partnership Proposal  
 
 Dear [Recipient’s Name],
 
-Thank you for sharing your partnership proposal with us. We have carefully reviewed the details and, after thorough consideration, have determined that our current strategic priorities differ from the focus of this initiative.
+Thank you for sharing your partnership proposal with us. After a thorough review, we have determined that our current priorities differ from the focus of the proposed collaboration. Consequently, we must decline the partnership at this time.
 
-While we are unable to move forward with a partnership at this time, we remain interested in exploring potential collaborations in the future should our objectives align more closely.
+We value the effort you have invested and remain open to exploring future opportunities that may align more closely with our strategic objectives.
 
-Thank you again for thinking of us, and we wish you continued success with your endeavors.
+Thank you for your understanding.
 
 Respectfully,  
 
 [Your Name]  
 [Your Title]  
-[Your Company]  
-[Contact Information]",Model_B
-9,Request customer feedback,friendly,1.0,0.33,0.67,0.67,"**Subject:** We’d Love Your Quick Feedback on Yesterday’s Service  
+[Your Company]  ",Model_B
+9,Request customer feedback,friendly,1.0,0.33,1.0,0.78,"**Subject:** We’d Love Your Quick Feedback on Yesterday’s Service  
 
 **Dear [Customer Name],**  
 
-I hope you’re doing well! Our team completed your service yesterday, and we’re eager to hear how everything went. Could you spare just 2 minutes to fill out a short survey? Your feedback is highly valued and helps us continue to improve our service for you and all our customers.  
+I hope you’re doing well! Our team completed your service yesterday, and we’re eager to hear how everything went. We’ve put together a brief survey that takes just about **2 minutes** to finish. Your feedback is highly valued and helps us continue to improve our service for you and all our customers.  
 
 Thank you in advance for sharing your thoughts!  
 
-**Best wishes,**  
+**Best regards,**  
 [Your Name]  
-Customer Experience Team  
+Customer Experience Manager  
 [Company Name]  
-[Contact Information]",Model_B
+[Contact Information]  ",Model_B
 10,Announce product update,professional,1.0,0.5,1.0,0.83,"**Subject:** Introducing the New Dashboard and Enhanced Reporting – Available Now  
 
-**Dear Valued Customer,**  
+Dear Valued Customer,
 
-We are pleased to announce that a new dashboard has been launched as part of our latest product update. This upgrade includes significantly improved reporting capabilities, giving you deeper insights and more actionable data. The new features are available immediately, and you can start using them right away.  
+We are pleased to announce a major product update that is now available to you immediately. Our newly launched dashboard offers a more intuitive interface, and the reporting capabilities have been significantly improved to provide deeper insights and faster data retrieval.
 
-Should you have any questions or require assistance in navigating the updated interface, please do not hesitate to contact our support team.  
+These enhancements are designed to streamline your workflow and empower you with better decision‑making tools right away.
 
-**Best regards,**  
+Should you have any questions or require assistance in exploring the new features, please do not hesitate to contact our support team.
+
+Best regards,  
 [Your Name]  
 Senior Executive Communications Specialist  
 [Company Name]  
-[Phone] | [Email]  ",Model_B
+[Phone] | [Email]",Model_B
