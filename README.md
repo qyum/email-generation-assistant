@@ -189,9 +189,9 @@ Evaluation Complete
 
 Average Scores
 
-Model_A    0.71
+Model_A    0.868
 
-Model_B    0.89
+Model_B    0.840
 
 ---
 
