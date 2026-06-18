@@ -92,8 +92,9 @@ Checks whether the email contains:
 
 ---
 
-# Project Structure
+## Project Structure
 
+```text
 email-generation-assistant/
 
 ├── main.py
@@ -107,9 +108,9 @@ email-generation-assistant/
 ├── .env
 ├── README.md
 └── reports/
-└── analysis.txt
+    └── analysis.txt
+```
 
----
 
 # Installation
 
