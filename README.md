@@ -222,13 +222,13 @@ Strict formatting instructions for:
 
 ## Higher Performing Model
 
-Model B typically performs better because:
+Model A typically performs better because:
 
 * Better fact retention
 * Improved formatting
 * More consistent tone control
 
-## Biggest Failure Mode of Model A
+## Biggest Failure Mode of Model B
 
 * Missing facts
 * Inconsistent formatting
@@ -236,7 +236,7 @@ Model B typically performs better because:
 
 ## Recommended Production Model
 
-Model B is recommended for production because it achieves:
+Model A is recommended for production because it achieves:
 
 * Higher overall scores
 * Better reliability
